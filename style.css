@@ -1,0 +1,275 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font: 10pt "Calibri";
+}
+img{
+	margin:-10px;
+	width: 120%;
+	height: 100%;
+}
+.isi{
+	width: 210mm;
+	min-height: 297mm;
+	padding: 15mm;
+	margin: 10mm auto;
+	border: 1px rgb(210, 210, 210) solid;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+table{
+	width: 100%;
+	height: 80%;
+}
+.isi table tr td:nth-child(1) img{
+	position: absolute;
+    width: 137px;
+    height: 128px;
+    top: 60px;
+}
+
+.isi table tr td:nth-child(2){
+    position: absolute;
+    width: 518px;
+    height: 23px;
+    left: 200px;
+    top: 55px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.7px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    letter-spacing: -0.06em;
+    
+    color: #000000;
+}
+
+.isi table tr td:nth-child(4){
+    position: absolute;
+    width: 167px;
+    height: 24px;
+    left: 656px;
+    top: 55px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.isi table tr:nth-child(2) td:nth-child(1){
+    position: absolute;
+    width: 361px;
+    height: 94px;
+    left: 200px;
+    top: 50px;
+
+    font-family: Courier;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 144px;
+    letter-spacing: -0.09em;
+
+    color: #FF0000;
+}
+
+.isi table tr:nth-child(2) td:nth-child(2){
+    position: absolute;
+    width: 198px;
+    height: 55px;
+    left: 510px;
+    top: 63px;
+
+    font-family: Courier;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 79px;
+    letter-spacing: 0.03em;
+
+    color: #0000FF;
+}
+
+.isi table tr:nth-child(2) td:nth-child(4){
+    position: absolute;
+    width: 235px;
+    height: 24px;
+    left: 657px;
+    top: 78px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.isi table tr:nth-child(3) td{
+    position: absolute;
+    width: 235px;
+    height: 24px;
+    left: 657px;
+    top: 93px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.isi table tr:nth-child(4) td:nth-child(1){
+    position: absolute;
+    width: 231px;
+    height: 51px;
+    left: 510px;
+    top: 93px;
+
+    font-family: Courier;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 79px;
+    letter-spacing: -0.1em;
+
+    color: #009933;
+}
+
+.isi table tr:nth-child(4) td:nth-child(3){
+    position: absolute;
+    width: 235px;
+    height: 24px;
+    left: 657px;
+    top: 108px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.isi table tr:nth-child(5) td:nth-child(2){
+    position: absolute;
+    width: 235px;
+    height: 24px;
+    left: 657px;
+    top: 124px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.isi table tr:nth-child(5) td:nth-child(3){
+    position: absolute;
+    width: 235px;
+    height: 24px;
+    left: 657px;
+    top: 138px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.isi table tr:nth-child(6) td:nth-child(1){
+    position: absolute;
+    width: 566px;
+    height: 40px;
+    top: 184px;
+
+    font-family: Courier;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: -0.08em;
+
+    color: #FFFFFF;
+    background-color: #FF0000;
+}
+
+.isi table tr:nth-child(6) td:nth-child(2){
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 625px;
+    top: 184px;
+
+    font-family: Courier;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: -0.08em;
+
+    color: #FFFFFF;
+    background-color: #009933;
+}
+.isi h1{
+    position: absolute;
+    text-align: center;
+    width: 225px;
+    height: 50px;
+    left: 350px;
+    top: 220px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: capitalize;
+    letter-spacing: 0.20em;
+
+    color: #000000;
+}
+
+.isi h2{
+    position: absolute;
+    text-align: center;
+    width: 245px;
+    height: 50px;
+    left: 340px;
+    top: 240px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 50px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
